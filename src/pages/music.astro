@@ -1,0 +1,15 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { siteConfig } from "../data/siteConfig";
+---
+
+<BaseLayout title="Music">
+  <div class="content">
+    <h1>Listen Now</h1>
+    <ul class="music-links">
+      <li><a href={siteConfig.socials.spotify} target="_blank">Spotify</a></li>
+      <li><a href={siteConfig.socials.audiomack} target="_blank">Audiomack</a></li>
+      <li><a href={siteConfig.socials.soundcloud} target="_blank">SoundCloud</a></li>
+    </ul>
+  </div>
+</BaseLayout>
