@@ -1,0 +1,12 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { siteConfig } from "../data/siteConfig";
+---
+
+<BaseLayout title="Home">
+  <div class="hero">
+    <h1>{siteConfig.name}</h1>
+    <p class="tagline">{siteConfig.tagline}</p>
+    <p class="description">{siteConfig.description}</p>
+  </div>
+</BaseLayout>
