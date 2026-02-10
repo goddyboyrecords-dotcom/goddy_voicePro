@@ -1,0 +1,1 @@
+{"name": "goddy_voicepro", "version": "1.0.0", "type": "module", "description": "Dark minimal multi-page artist website template (Astro + Netlify) for music creators", "scripts": {"dev": "astro dev", "build": "astro build", "preview": "astro preview"}, "dependencies": {"astro": "^4.0.0"}}
